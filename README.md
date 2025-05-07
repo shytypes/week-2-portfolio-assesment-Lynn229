@@ -40,3 +40,9 @@ This repository contains everything you need to complete your **portfolio assign
 4. Once you're done, commit your changes:
 
 **Watch this video 👉:**
+
+
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green?logo=github)](https://shytypes.github.io/week-2-portfolio-assesment-Lynn229/)
+
+
+🚀 **View the project here**: [https://shytypes.github.io/week-2-portfolio-assesment-Lynn229/](https://shytypes.github.io/week-2-portfolio-assesment-Lynn229/)

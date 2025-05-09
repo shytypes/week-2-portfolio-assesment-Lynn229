@@ -25,12 +25,14 @@ message.addEventListener("input", () => {
    console.log("Message=>", msg);
  
    if (firstName && lastName && email && msg) {
-    responseDiv.innerHTML = `<p>Thank you! <b>${firstName} ${lastName}</b>! Your message has been received.</p>`;
+    responseDiv.innerHTML = `<p>Thank you! <b>${firstName} ${lastName}</b>! Your message has been received.</p>  <p>We will contact you at <i>${email}</i>.</p>
+  <p>Your message:</p>
+  <blockquote>${msg}</blockquote>`;
     responseDiv.style.display = "block"; e
     form.reset(); 
     characterCount.textContent = "Characters: 0"; 
 } else {
-    responseDiv.innerHTML = `<p style="color: red;">Please fill in all fields.</p>`;
+    responseDiv.innerHTML = `<p style="color: red;">Please fill in all fields.</p>`
     responseDiv.style.display = "block"; 
 }
 

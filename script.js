@@ -25,9 +25,10 @@ message.addEventListener("input", () => {
    console.log("Message=>", msg);
  
    if (firstName && lastName && email && msg) {
-    responseDiv.innerHTML = `<p>Thank you! <b>${firstName} ${lastName}</b>! Your message has been received.</p>  <p>We will contact you at <i>${email}</i>.</p>
+    responseDiv.innerHTML = `<p>Thank you <b>${firstName} ${lastName}</b>for your input! I have received your message.
   <p>Your message:</p>
-  <blockquote>${msg}</blockquote>`;
+  <blockquote>${msg}</blockquote>
+  <p> I will contact you via your email: <b>${email}</b>. Stay tuned!`;
     responseDiv.style.display = "block"; e
     form.reset(); 
     characterCount.textContent = "Characters: 0"; 

@@ -7,21 +7,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <!-- add fonts -->
+    <!-- league spartan -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
       rel="stylesheet"
+
     />
     <!-- local style -->
     <link rel="stylesheet" href="styles/global.css" />
   </head>
   <body>
     <!-- Header Area -->
-    <header></header>
+    <header>
+      <h1>Caroline Wangu Gichuhi</h1>
+      <p>MY GRAPHIC DESIGNER PORTFOLIO</p>
+    </header>
     <!-- Main Area -->
     <main>
-      <h1>My Amazing Portfolio</h1>
+      <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="assets\images\photo_5_2025-03-21_15-37-10.jpg" alt="My profile photo" class="about-image">
+        <div class="about-text">
+          <p>I am a passionate graphic designer who specializes in creating engaging content and online strategies that drive results. I focus on creative storytelling, content planning, and building brand presence through digital content.</p>
+        </div>
+      </div>  
+    </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+        <h3>Promotional Content for Juliet Sky Writers</h3>
+        <h4>JULIET SKY</h4>
+      <p>Juliet Sky is an online based writers online based company. High quality content is key when it comes to sharing the brands goals and services.</p>
+      <h5>JULIET SKY LOGO</h5>  
+      <p>The Juliet Sky Writers logo embodies professionalism, creativity, and academic excellence. Designed with a sleek and modern aesthetic, the logo features a balanced composition that reflects trust, expertise, and reliability in academic writing. The typography and color choices enhance its visual appeal, making it a recognizable and strong brand identity. This logo serves as a foundation for the company's branding across digital platforms and marketing materials.</p>
+      <div class="media-image">
+      <img src="assets/images/Adobe Express - file.png" alt=" Juliet sky Logo">
+      </div>
+      <h5>JULIET SKY AD VIDEO</h5>
+      <p>This advertisement was designed for Juliet Sky Writers, an online-based academic writing company, to enhance brand visibility and attract potential clients. The design incorporates a clean and professional layout, ensuring clarity while maintaining a visually engaging appeal.
+        Key elements include a strategic use of typography, a balanced color scheme, and an informative yet minimalistic approach to highlight the company's expertise in academic writing. This project demonstrates my ability to create effective marketing visuals that align with a brand’s objectives and resonate with its target audience</p>
+        <div class="media-video">
+        <video controls class="small-video">
+          <source src="assets/videos/VIDEO AD 2622025.mp4" type="video/mp4">
+        </video> 
+      </div> 
+    </div>    
+      </section>
+      <section id="Contact">
+         <h2>My Email:</h2>
+         <p>Email: <a href="mailto:yourname@gmail.com">carolwangu02@gmail.com</a></p>
+         
+                   <p>Reach out and let us create some magic together!</p>
+          
+        <form id="contactForm">
+          <h2>Enter your details here!</h2>
+          <label for="firstName">First Name</label><br>
+          <input type="text" id="firstName" required><br>
+        
+          <label for="lastName">Last Name</label><br>
+          <input type="text" id="lastName" required><br>
+          
+          <label for="email">Email</label><br>
+          <input type="text" id="email" required><br>
+
+          <label for="message">Message</label><br>
+          <textarea type="text" id="message" required></textarea><br>
+          <span id="characterCount">Characters: 0</span>          
+          <p>Click SEND. Don't be shy!</p>
+
+          <button type="submit"> SEND</button>
+        </form>
+
+        <div id="responseMessage"></div>
+
+         <footer>
+          <p>© 2025 Caroline Wangu. All rights reserved.</p>
+         </footer>
+      </section>
     </main>
+    <script src ="script.js"></script>
   </body>
 </html>
